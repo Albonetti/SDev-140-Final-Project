@@ -1,5 +1,5 @@
+# User Manual
 Updated 2023/12/15
-User Manual
 
 This is a graphical user interface of tic-tac-toe. The game opens a first window that contains a welcome message. That window then opens a second window, which gets the users’ names from each other. After the users enter their names, a third window opens to the tic-tac-toe game, and it includes the users’ names in the top of the screen.
 
