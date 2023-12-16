@@ -146,9 +146,8 @@ class Third_Window(tk.Toplevel):
             square["text"] = "X" 
             self.is_X = False # change self.is_X so next move will create an O
             self.count += 1 # increment counter so that we can determine if the game ends in a tie
-            self.check_for_winner()
-
-        elif square["text"] == " " and self.is_X == False:
+            self.check_for_winner() # check for winner, continue game if no winner
+        elif square["text"] == " " and self.is_X == False: # sets blank square to O
             square["text"] = "O"
             self.is_X = True
             self.count += 1
